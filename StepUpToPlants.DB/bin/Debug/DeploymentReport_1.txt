@@ -1,0 +1,40 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[Address] (Table)
+       [dbo].[Admin] (Table)
+       [dbo].[Cardinal] (Table)
+       [dbo].[Care] (Table)
+       [dbo].[Exposure] (Table)
+       [dbo].[Location] (Table)
+       [dbo].[Message] (Table)
+       [dbo].[Plant] (Table)
+       [dbo].[Plot] (Table)
+       [dbo].[Replace] (Table)
+       [dbo].[Species] (Table)
+       [dbo].[Tip] (Table)
+       [dbo].[User] (Table)
+       [dbo].[FK_Admin_User] (Foreign Key)
+       [dbo].[FK_Exposure_ToCardinal] (Foreign Key)
+       [dbo].[FK_Exposure_ToUser] (Foreign Key)
+       [dbo].[FK_Exposure_ToPlant] (Foreign Key)
+       [dbo].[FK_Location_ToPlant] (Foreign Key)
+       [dbo].[FK_Location_ToExposure] (Foreign Key)
+       [dbo].[FK_Plant_ToSpecies] (Foreign Key)
+       [dbo].[FK_Plant_ToCare] (Foreign Key)
+       [dbo].[FK_Plant_ToExposure] (Foreign Key)
+       [dbo].[FK_Plot_ToLocation] (Foreign Key)
+       [dbo].[FK_User_Address] (Foreign Key)
+       [dbo].[CK_User_Email] (Check Constraint)
+       [dbo].[CK_User_BirthDate] (Check Constraint)
+
+** Supporting actions

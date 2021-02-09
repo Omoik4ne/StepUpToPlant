@@ -1,0 +1,9 @@
+﻿CREATE TABLE [dbo].[Tip]
+(
+	[IdTip] INT NOT NULL IDENTITY,
+	[Date] DATETIME2 NOT NULL,
+	[Avatar] NVARCHAR(250) NULL,
+	[Description] NVARCHAR(MAX) NOT NULL,
+	[IdUser] INT NOT NULL,
+	PRIMARY KEY CLUSTERED ([IdTip] ASC)
+);

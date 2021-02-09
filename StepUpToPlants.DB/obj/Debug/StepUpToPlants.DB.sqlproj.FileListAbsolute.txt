@@ -1,0 +1,10 @@
+C:\Users\sunsh\Desktop\StepUpToPlants\StepUpToPlants\StepUpToPlants.DB\bin\Debug\StepUpToPlants.DB.dacpac
+C:\Users\sunsh\Desktop\StepUpToPlants\StepUpToPlants\StepUpToPlants.DB\obj\Debug\StepUpToPlants.DB.sqlprojAssemblyReference.cache
+C:\Users\sunsh\Desktop\StepUpToPlants\StepUpToPlants\StepUpToPlants.DB\obj\Debug\StepUpToPlants.DB.dll
+C:\Users\sunsh\Desktop\StepUpToPlants\StepUpToPlants\StepUpToPlants.DB\obj\Debug\StepUpToPlants.DB.pdb
+C:\Users\sunsh\Desktop\StepUpToPlants\StepUpToPlants\StepUpToPlants.DB\bin\Debug\StepUpToPlants.DB.dll
+C:\Users\sunsh\Desktop\StepUpToPlants\StepUpToPlants\StepUpToPlants.DB\bin\Debug\StepUpToPlants.DB.pdb
+C:\Users\sunsh\Desktop\StepUpToPlants\StepUpToPlants\StepUpToPlants.DB\obj\Debug\Model.xml
+C:\Users\sunsh\Desktop\StepUpToPlants\StepUpToPlants\StepUpToPlants.DB\obj\Debug\refactor.xml
+C:\Users\sunsh\Desktop\StepUpToPlants\StepUpToPlants\StepUpToPlants.DB\obj\Debug\postdeploy.sql
+C:\Users\sunsh\Desktop\StepUpToPlants\StepUpToPlants\StepUpToPlants.DB\obj\Debug\predeploy.sql

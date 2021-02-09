@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StepUpToPlants", "StepUpToPlants\StepUpToPlants.csproj", "{A97A5BC6-FD15-4067-8318-8AC0B0B80711}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "StepUpToPlants.DB", "StepUpToPlants.DB\StepUpToPlants.DB.sqlproj", "{215735BC-F2EE-4A99-BF8A-64FBE316E4FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A97A5BC6-FD15-4067-8318-8AC0B0B80711}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A97A5BC6-FD15-4067-8318-8AC0B0B80711}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A97A5BC6-FD15-4067-8318-8AC0B0B80711}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A97A5BC6-FD15-4067-8318-8AC0B0B80711}.Release|Any CPU.Build.0 = Release|Any CPU
+		{215735BC-F2EE-4A99-BF8A-64FBE316E4FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{215735BC-F2EE-4A99-BF8A-64FBE316E4FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{215735BC-F2EE-4A99-BF8A-64FBE316E4FF}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{215735BC-F2EE-4A99-BF8A-64FBE316E4FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{215735BC-F2EE-4A99-BF8A-64FBE316E4FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{215735BC-F2EE-4A99-BF8A-64FBE316E4FF}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A84EEEF4-11E5-4ADE-A14C-2328B31FF6A7}
+	EndGlobalSection
+EndGlobal

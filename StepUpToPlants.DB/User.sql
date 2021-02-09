@@ -1,0 +1,20 @@
+﻿CREATE TABLE [dbo].[User] (
+    [IdUser] INT IDENTITY NOT NULL,
+    [Name] VARCHAR (64) NOT NULL,
+    [LastName]  VARCHAR (64) NOT NULL,
+    [Pseudo] VARCHAR(16) NOT NULL,
+    [Password] VARBINARY (32) NOT NULL,
+    [Salt] CHAR(8) NOT NULL,
+	[Avatar] NVARCHAR(250),
+	[BirthDate] DATE NOT NULL,
+	[Email] VARCHAR(256) NOT NULL,
+	[IdAddress] INT NOT NULL,
+    [IdCardinal] INT NOT NULL, 
+    PRIMARY KEY CLUSTERED ([IdUser] ASC),
+    	CONSTRAINT UK_User_Email UNIQUE ([Email]),
+	CONSTRAINT UK_User_Login UNIQUE ([Pseudo]),
+	CONSTRAINT CK_User_Email CHECK ([Email] LIKE '___%@___%.__%'),
+	CONSTRAINT CK_User_BirthDate CHECK (DATEDIFF(YEAR,[BirthDate],GETDATE()) > 5 AND DATEDIFF(YEAR,[BirthDate],GETDATE()) < 150),
+	CONSTRAINT FK_User_Address FOREIGN KEY ([IdAddress]) REFERENCES [Address]([IdAddress]),
+);
+
