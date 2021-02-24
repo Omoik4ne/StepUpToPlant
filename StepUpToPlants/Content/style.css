@@ -1,0 +1,13 @@
+﻿body {
+    background-color: url("images/carre.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#wrapper{
+    background-image: url("images/carre.jpg");
+}
+
+h1 {
+    background-color: rgba(0, 0, 0, 0.4) /* 50% opaque blue */
+}

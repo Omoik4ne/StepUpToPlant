@@ -1,50 +1,54 @@
-﻿@{
+﻿@model StepUpToPlants.Models.IndexViewModel
+@{
     ViewBag.Title = "Home Page";
 }
 
 <!-- Main -->
 <div id="main">
 
-    <!-- Featured Post -->
+    <!-- FrontIndex -->
     <article class="post featured">
         <header class="major">
             <span class="date">April 25, 2017</span>
             <h2>
-                <a href="#">
-                    And this is a<br />
-                    massive headline
-                </a>
+                Meet<br />
+                population here
             </h2>
             <p>
-                Aenean ornare velit lacus varius enim ullamcorper proin aliquam<br />
-                facilisis ante sed etiam magna interdum congue. Lorem ipsum dolor<br />
-                amet nullam sed etiam veroeros.
+                There is several sheets of differents kind of plants.<br />
+                You can choose amoung them the ones which will compose your kitchen garden.<br />
+                See their caracteristics? We'll help you to dispose them in order to provide<br />
+                you the best vegetables.
             </p>
         </header>
-        <a href="#" class="image main"><img src="images/pic01.jpg" alt="" /></a>
-        <ul class="actions special">
-            <li><a href="#" class="button large">Full Story</a></li>
-        </ul>
+
+        <!--Search-->
+        @*<a href="#" class="image main"><img src="images/pic01.jpg" alt="" /></a>*@
+        <div class="search v-search">
+            <form>
+                <input type="text" value="Search.." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search..';}" />
+                <br />
+                <input type="submit" value="Go">
+            </form>
+        </div>
     </article>
 
-    <!-- Posts -->
+    <!-- PlantSheet -->
     <section class="posts">
+
         <article>
             <header>
                 <span class="date">April 24, 2017</span>
-                <h2>
-                    <a href="#">
-                        Sed magna<br />
-                        ipsum faucibus
-                    </a>
-                </h2>
+                <h2>@Model.PlantSheet.ComName</h2>
             </header>
-            <a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
-            <p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+            <img src="images/pic02.jpg" alt="" />
+            @*<a href="#" class="image fit"></a>*@
+            <p>@Model.PlantSheet.Description</p>
             <ul class="actions special">
-                <li><a href="#" class="button">Full Story</a></li>
+                <li><a href="#" class="button">Get it!</a></li>
             </ul>
         </article>
+
         <article>
             <header>
                 <span class="date">April 22, 2017</span>
@@ -127,19 +131,49 @@
         </article>
     </section>
 
-    <!-- Footer -->
-    <footer>
-        <div class="pagination">
-            <!--<a href="#" class="previous">Prev</a>-->
-            <a href="#" class="page active">1</a>
-            <a href="#" class="page">2</a>
-            <a href="#" class="page">3</a>
-            <span class="extra">&hellip;</span>
-            <a href="#" class="page">8</a>
-            <a href="#" class="page">9</a>
-            <a href="#" class="page">10</a>
-            <a href="#" class="next">Next</a>
-        </div>
-    </footer>
+    <!-- Pagination -->
+    <div class="pagination">
+        <!--<a href="#" class="previous">Prev</a>-->
+        <a href="#" class="page active">1</a>
+        <a href="#" class="page">2</a>
+        <a href="#" class="page">3</a>
+        <span class="extra">&hellip;</span>
+        <a href="#" class="page">8</a>
+        <a href="#" class="page">9</a>
+        <a href="#" class="page">10</a>
+        <a href="#" class="next">Next</a>
+    </div>
 
+    <!--Contact-->
+    <footer>
+    <section>
+        <h3>Any questions?</h3><br />
+        <form method="post" action="#">
+            <div class="fields">
+                <div class="field">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" />
+                </div>
+                <div class="field">
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email" />
+                </div>
+                <div class="field">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" rows="3"></textarea>
+                </div>
+            </div>
+            <ul class="actions">
+                <li><input type="submit" value="Send Message" /></li>
+            </ul>
+        </form>
+    </section>
+    <section class="split contact">
+        <section class="alt">
+            <section>
+                <h3>Email</h3><a href="#">info@untitled.tld</a>
+            </section>
+        </section>
+    </section>
+    </footer>
 </div>

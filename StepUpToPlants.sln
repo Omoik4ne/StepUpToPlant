@@ -7,6 +7,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StepUpToPlants", "StepUpToP
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "StepUpToPlants.DB", "StepUpToPlants.DB\StepUpToPlants.DB.sqlproj", "{215735BC-F2EE-4A99-BF8A-64FBE316E4FF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StepUpToPlants.DAL", "StepUpToPlants.DAL\StepUpToPlants.DAL.csproj", "{A7B61BDE-76A4-426B-B1FD-C77EF5E60576}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StepUpToPlants.Repositories", "StepUpToPlants.Repositories\StepUpToPlants.Repositories.csproj", "{10ECD624-55AC-4F8B-B27C-0852C3E7B5C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StepUpToPlants.Models", "StepUpToPlants.Models\StepUpToPlants.Models.csproj", "{B705AEC9-7770-4A9D-A5B4-CDED1D320451}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StepUpToPlants.Entities", "StepUpToPlants.Entities\StepUpToPlants.Entities.csproj", "{BA775CA8-5C8B-44E4-B814-FB709173B635}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +31,22 @@ Global
 		{215735BC-F2EE-4A99-BF8A-64FBE316E4FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{215735BC-F2EE-4A99-BF8A-64FBE316E4FF}.Release|Any CPU.Build.0 = Release|Any CPU
 		{215735BC-F2EE-4A99-BF8A-64FBE316E4FF}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{A7B61BDE-76A4-426B-B1FD-C77EF5E60576}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7B61BDE-76A4-426B-B1FD-C77EF5E60576}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7B61BDE-76A4-426B-B1FD-C77EF5E60576}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7B61BDE-76A4-426B-B1FD-C77EF5E60576}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10ECD624-55AC-4F8B-B27C-0852C3E7B5C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10ECD624-55AC-4F8B-B27C-0852C3E7B5C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10ECD624-55AC-4F8B-B27C-0852C3E7B5C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10ECD624-55AC-4F8B-B27C-0852C3E7B5C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B705AEC9-7770-4A9D-A5B4-CDED1D320451}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B705AEC9-7770-4A9D-A5B4-CDED1D320451}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B705AEC9-7770-4A9D-A5B4-CDED1D320451}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B705AEC9-7770-4A9D-A5B4-CDED1D320451}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA775CA8-5C8B-44E4-B814-FB709173B635}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA775CA8-5C8B-44E4-B814-FB709173B635}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA775CA8-5C8B-44E4-B814-FB709173B635}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA775CA8-5C8B-44E4-B814-FB709173B635}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

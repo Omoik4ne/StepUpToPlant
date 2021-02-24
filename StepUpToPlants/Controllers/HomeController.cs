@@ -1,4 +1,5 @@
-﻿using System;
+﻿using StepUpToPlants.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -10,17 +11,26 @@ namespace StepUpToPlants.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+            IndexViewModel idx = new IndexViewModel();
+
+            return View(idx);
         }
 
-        public ActionResult About()
+        public ActionResult YourGarden()
         {
             ViewBag.Message = "Your application description page.";
 
             return View();
         }
 
-        public ActionResult Contact()
+        public ActionResult Tips()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
+
+        public ActionResult Page404()
         {
             ViewBag.Message = "Your contact page.";
 
