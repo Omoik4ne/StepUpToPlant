@@ -4,7 +4,7 @@ namespace StepUpToPlants.Models
 {
     public class PlantSheetModel 
     {
-        private string _logo, _type, _comName, _scienName, _avHeight, _needLight, _description,_plantTime, _harvTime, _favPlant, _avoidPlant, _bigPicture, _heat;
+        private string _logo, _type, _comName, _scienName, _avHeight, _needLight, _description,_plantTime, _harvTime, _favPlant, _avoidPlant, _bigPicture, _heat, _water, _spade;
         public string Logo
         {
             get
@@ -170,6 +170,32 @@ namespace StepUpToPlants.Models
             set
             {
                 _heat = value;
+            }
+        }
+
+        public string Water
+        {
+            get
+            {
+                return _water;
+            }
+
+            set
+            {
+                _water = value;
+            }
+        }
+
+        public string Spade
+        {
+            get
+            {
+                return _spade;
+            }
+
+            set
+            {
+                _spade = value;
             }
         }
     }

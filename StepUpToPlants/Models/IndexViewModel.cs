@@ -27,7 +27,7 @@ namespace StepUpToPlants.Models
                 PlantTime = "Début Printemps, Milieu Automne",
                 HarvTime = "4 ou 8 mois",
                 BigPicture = "ail.jpg",
-                Heat = "soleil.jpg"
+                Heat = "soleil.jpg",
             });
 
             _plantSheet.Add(new PlantSheetModel()
@@ -42,7 +42,9 @@ namespace StepUpToPlants.Models
                 PlantTime = "D'avril jusqu'au début de l'été",
                 HarvTime = "6 mois",
                 BigPicture = "aneth.jpg",
-                Heat = "soleilorange.jpg"
+                Heat = "soleilorange.jpg",
+                Water = "arosoir.jpg",
+                Spade = "beche.jpg"
             });
         }
 
