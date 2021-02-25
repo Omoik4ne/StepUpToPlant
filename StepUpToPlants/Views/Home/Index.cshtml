@@ -36,25 +36,41 @@
     <!-- PlantSheet -->
     <section class="posts">
 
+        
+            @*<header>
+        <img src="/Content/images/logos/logail.jpg" alt="logo" class="img_log" />
+            <span>@Model.PlantSheet.Type</span><br /><br />
+            <h2>@Model.PlantSheet.ComName</h2>
+        </header>
+        <img src="/Content/images/plantsheet/ail.jpg" alt="picture" class="img_sheet" />
+        <h6>@Model.PlantSheet.ScienName</h6><br />
+        <p>@Model.PlantSheet.Description</p>
+        <p>Taille moyenne:&nbsp;@Model.PlantSheet.AvHeight</p>
+        <p>Semage: @Model.PlantSheet.PlantTime</p>
+        <p>Récolte: @Model.PlantSheet.HarvTime</p>
+        <p><img src="/Content/images/logos/soleil.jpg" alt="logo" class="img_log" /></p>*@
+            @foreach (StepUpToPlants.Models.PlantSheetModel item in Model.PlantSheet)
+            {
         <article>
             <header>
-                <span>@Model.PlantSheet.Type</span><br /><br />
-                <h2>@Model.PlantSheet.ComName</h2>
+                <img src="/Content/images/logos/@item.Logo" alt="logo" class="img_log" />
+                <span>@item.Type</span><br /><br />
+                <h2>@item.ComName</h2>
             </header>
-
-            <img src="/Content/images/plantsheet/ail.jpg" alt="picture" class="img_sheet" />
-            <h6>@Model.PlantSheet.ScienName</h6><br />
-            <p>@Model.PlantSheet.Description</p>
-            <p>Taille moyenne:&nbsp;@Model.PlantSheet.AvHeight</p>
-            <p>Semage: @Model.PlantSheet.PlantTime</p>
-            <p>Récolte: @Model.PlantSheet.HarvTime</p>
-            <p><img src="/Content/images/logos/soleil.jpg" alt="picture" class="img_sheet" /></p>
+            <img src="~/Content/images/plantsheet/@item.BigPicture" alt="picture" class="img_sheet" />
+            <h6>@item.ScienName</h6><br />
+            <p>@item.Description</p>
+            <p>Taille moyenne:&nbsp;@item.AvHeight</p>
+            <p>Semage:&nbsp;@item.PlantTime</p>
+            <p>Récolte:&nbsp;@item.HarvTime</p>
+            <img src="/Content/images/logos/@item.Heat" alt="logo" class="img_log" />
+            <hr />
             <ul class="actions special">
                 <li><a href="#" class="button">Get it!</a></li>
             </ul>
         </article>
-
-        <article>
+            }
+        @*<article>
             <header>
                 <span class="date">April 22, 2017</span>
                 <h2>
@@ -133,7 +149,7 @@
             <ul class="actions special">
                 <li><a href="#" class="button">Full Story</a></li>
             </ul>
-        </article>
+        </article>*@
     </section>
 
     <!-- Pagination -->

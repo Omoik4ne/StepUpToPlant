@@ -2,11 +2,21 @@
 
 namespace StepUpToPlants.Models
 {
-    public class PlantSheet
+    public class PlantSheetModel 
     {
-        private string _type, _comName, _scienName, _avHeight, _needLight, _description,_plantTime, _harvTime, _favPlant, _avoidPlant;
-        private string _bigPicture;
+        private string _logo, _type, _comName, _scienName, _avHeight, _needLight, _description,_plantTime, _harvTime, _favPlant, _avoidPlant, _bigPicture, _heat;
+        public string Logo
+        {
+            get
+            {
+                return _logo;
+            }
 
+            set
+            {
+                _logo = value;
+            }
+        }
         public string Type
         {
             get
@@ -147,6 +157,19 @@ namespace StepUpToPlants.Models
             set
             {
                 _bigPicture = value;
+            }
+        }
+
+        public string Heat
+        {
+            get
+            {
+                return _heat;
+            }
+
+            set
+            {
+                _heat = value;
             }
         }
     }

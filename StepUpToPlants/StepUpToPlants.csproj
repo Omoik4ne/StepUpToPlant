@@ -125,7 +125,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\IndexViewModel.cs" />
-    <Compile Include="Models\PlantSheet.cs" />
+    <Compile Include="Models\PlantSheetModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -194,6 +194,25 @@
     <Content Include="Content\images\logos\trefle.jpg" />
     <Content Include="Content\images\logos\treillage.jpg" />
     <Content Include="Content\images\logos\tuteurvertical.jpg" />
+    <Content Include="Content\images\plantsheet\aneth.jpg" />
+    <Content Include="Content\images\plantsheet\basilic.jpg" />
+    <Content Include="Content\images\plantsheet\betterave.jpg" />
+    <Content Include="Content\images\plantsheet\carotte.jpg" />
+    <Content Include="Content\images\plantsheet\celeri.jpg" />
+    <Content Include="Content\images\plantsheet\cerfeuil.jpg" />
+    <Content Include="Content\images\plantsheet\choufleur.jpg" />
+    <Content Include="Content\images\plantsheet\choupomme.jpg" />
+    <Content Include="Content\images\plantsheet\chourave.jpg" />
+    <Content Include="Content\images\plantsheet\estragon.jpg" />
+    <Content Include="Content\images\plantsheet\fenouil.jpg" />
+    <Content Include="Content\images\plantsheet\fraisier.jpg" />
+    <Content Include="Content\images\plantsheet\haricot.jpg" />
+    <Content Include="Content\images\plantsheet\laitue.jpg" />
+    <Content Include="Content\images\plantsheet\maches.jpg" />
+    <Content Include="Content\images\plantsheet\mais.jpg" />
+    <Content Include="Content\images\plantsheet\melon.jpg" />
+    <Content Include="Content\images\plantsheet\navet.jpg" />
+    <Content Include="Content\images\plantsheet\oignon.jpg" />
     <Content Include="Content\images\sky.jpg" />
     <Content Include="Content\images\sky2.jpeg" />
     <Content Include="Content\images\sky3.jpg" />
