@@ -4,7 +4,7 @@ namespace StepUpToPlants.Models
 {
     public class PlantSheet
     {
-        private string _type, _comName, _scienName, _maxHeight, _needLight, _description,_plantTime, _harvTime, _favPlant, _avoidPlant;
+        private string _type, _comName, _scienName, _avHeight, _needLight, _description,_plantTime, _harvTime, _favPlant, _avoidPlant;
         private string _bigPicture;
 
         public string Type
@@ -98,16 +98,16 @@ namespace StepUpToPlants.Models
             }
         }
 
-        public string MaxHeight
+        public string AvHeight
         {
             get
             {
-                return _maxHeight;
+                return _avHeight;
             }
 
             set
             {
-                _maxHeight = value;
+                _avHeight = value;
             }
         }
 
